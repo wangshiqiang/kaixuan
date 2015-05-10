@@ -1,0 +1,50 @@
+@charset "utf-8";
+html{color:#4d4d4d;background-color:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body,button,input,select,textarea{font-size:14px;/* font:12px/normal STHeiti,Arial,\5b8b\4f53; */}
+input[type=text],select,textarea{font-size:100%;outline:none;background:#fff;}
+fieldset,img{border:0;vertical-align:top;}
+img{max-width:100%;height:auto;}
+address,caption,cite,code,dfn,em,th,var,i,b,strong{font-style:normal;text-align: left;}
+ol,ul{list-style-type:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ins,a{text-decoration:none;}
+table,td,th{border-collapse:collapse;}
+a{color:#176def;text-decoration:none;}
+a.gray,
+a.gray{color:#999;text-decoration:none;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.hide{display:none;}
+.show{display:block;}
+.float-left{float:left;}
+.float-right{float:right;}
+.muted {color: #999999;}
+.text-right{text-align:right;}
+.text-center{text-align:center;}
+.bold{font-weight:bold;}
+.normal{font-weight:normal;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.text,
+textarea{border:1px #999 solid;padding: 6px 2%;box-sizing:border-box;}
+select{padding:5px 0;border:1px #999 solid;box-sizing:border-box;}
+
+
+
+
+/*
+ * 多屏适配
+*/
+/* 平板电脑和桌面 */
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* 景观肖像平板手机 */
+@media (max-width: 767px) {}
+
+/* 中小屏幕手机 */
+@media (max-width: 480px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 979px) {}
+@media (min-width: 980px) {}
+@media print {}

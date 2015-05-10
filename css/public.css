@@ -1,0 +1,23 @@
+@charset "utf-8";
+#index{}
+#index .container{padding: 3%;}
+#index .container .title{font-size: 22px;text-align: center;margin-top: 10%;}
+#index .container .content{font-size: 16px;margin-top: 5%;text-align: center;color: #36a803;}
+#index .container{}
+
+
+/*
+ * 多屏适配
+*/
+/* 平板电脑和桌面 */
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* 景观肖像平板手机 */
+@media (max-width: 767px) {}
+
+/* 中小屏幕手机 */
+@media (max-width: 480px) {}
+@media (min-width: 1200px) {}
+@media (max-width: 979px) {}
+@media (min-width: 980px) {}
+@media print {}
